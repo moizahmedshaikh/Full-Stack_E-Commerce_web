@@ -3,8 +3,9 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { useShoppingCart } from "use-shopping-cart";
-import { urlFor } from "@/sanity/lib/image";
+// import { urlFor } from "@/sanity/lib/image";
 import { SanityImageSource } from "@sanity/image-url/lib/types/types";
+import { urlFor } from "../sanity/lib/image";
 
 export interface ProductCart {
   name: string;

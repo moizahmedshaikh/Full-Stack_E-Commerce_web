@@ -1,8 +1,9 @@
-import { client } from "@/sanity/lib/client";
+// import { client } from "@/sanity/lib/client";
 import { simplifiedProduct } from "../interface";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { client } from "../../sanity/lib/client";
 
 
 const getValidCategories = async () => {

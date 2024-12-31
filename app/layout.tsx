@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import CartProvider from "@/components/Provider";
-import ShoppingCartModel from "@/components/ShoppingCartModel";
-import Footer from "@/components/Footer";
+// import { CartProvider } from "use-shopping-cart";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import ShoppingCartModel from "../components/ShoppingCartModel";
+// import Navbar from "@/components/Navbar";
+import CartProvider from "../components/Provider";
+// import ShoppingCartModel from "@/components/ShoppingCartModel";
+// import Footer from "@/components/Footer";
 
 const font = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],

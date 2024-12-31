@@ -1,10 +1,16 @@
-import { fullProduct } from "@/app/interface";
-import AddToCart from "@/components/AddToCart";
-import CheckoutNow from "@/components/checkoutNow";
-import ImageGallery from "@/components/ImageGallery";
-import { Button } from "@/components/ui/button";
-import { client } from "@/sanity/lib/client";
+// import { fullProduct } from "@/app/interface";
+// import AddToCart from "@/components/AddToCart";
+// import CheckoutNow from "@/components/checkoutNow";
+// import ImageGallery from "@/components/ImageGallery";
+// import { Button } from "@/components/ui/button";
+// import { client } from "@/sanity/lib/client";
 import { Star, Truck } from "lucide-react";
+import { client } from "../../../sanity/lib/client";
+import AddToCart from "../../../components/AddToCart";
+import CheckoutNow from "../../../components/checkoutNow";
+import ImageGallery from "../../../components/ImageGallery";
+import { Button } from "../../../components/ui/button";
+import { fullProduct } from "../../interface";
 
 const getData = async (slug: string) => {
   

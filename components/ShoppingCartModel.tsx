@@ -1,14 +1,15 @@
 "use client";
 
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@/components/ui/sheet";
+// import {
+//   Sheet,
+//   SheetContent,
+//   SheetHeader,
+//   SheetTitle,
+// } from "@/components/ui/sheet";
 import Image from "next/image";
 import { useShoppingCart } from "use-shopping-cart";
 import { Button } from "./ui/button";
+import { Sheet, SheetContent, SheetHeader, SheetTitle,  } from "./ui/sheet";
 
 const ShoppingCartModel = () => {
   const {
