@@ -14,47 +14,49 @@ export default function Home() {
         <div className="grid grid-cols-3 items-center text-center gap-3">
           <div>
             <div className="md:w-44 md:h-44 h-24 w-24 object-cover object-center m-auto rounded-full overflow-hidden">
-              <Image
-                src={"/img1.webp"}
-                alt="feature img"
-                height={1000}
-                width={1000}
-                className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
-              />
+              <Link href={"/Women"}>
+                <Image
+                  src={"/img1.webp"}
+                  alt="feature img"
+                  height={1000}
+                  width={1000}
+                  className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
+                />
+              </Link>
             </div>
             <h4 className="text-sm font-semibold mt-4 cursor-pointer text-gray-900">
-              <Link href={"/Women"}>Womens</Link>
+              Womens
             </h4>
           </div>
 
           <div>
             <div className="md:w-44 md:h-44 h-24 w-24 object-cover object-center m-auto rounded-full overflow-hidden">
-              <Image
-                src={"/img4.webp"}
-                alt="feature img"
-                height={1000}
-                width={1000}
-                className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
-              />
+              <Link href={"/Teen"}>
+                <Image
+                  src={"/img4.webp"}
+                  alt="feature img"
+                  height={1000}
+                  width={1000}
+                  className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
+                />
+              </Link>
             </div>
-            <h4 className="text-sm font-semibold mt-4 cursor-pointer text-gray-900">
-              <Link href={"/Teen"}>Teens</Link>
-            </h4>
+            <h4 className="text-sm font-semibold mt-4 text-gray-900">Teens</h4>
           </div>
 
           <div>
             <div className="md:w-44 md:h-44 h-24 w-24 object-cover object-center m-auto rounded-full overflow-hidden">
-              <Image
-                src={"/img3.webp"}
-                alt="feature img"
-                height={1000}
-                width={1000}
-                className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
-              />
+              <Link href={"/Men"}>
+                <Image
+                  src={"/img3.webp"}
+                  alt="feature img"
+                  height={1000}
+                  width={1000}
+                  className="w-full h-full rounded-full block transform duration-300 hover:scale-110"
+                />
+              </Link>
             </div>
-            <h4 className="text-sm font-semibold mt-4 cursor-pointer text-gray-900">
-              <Link href={"/Men"}>Mens</Link>
-            </h4>
+            <h4 className="text-sm font-semibold mt-4 text-gray-900">Mens</h4>
           </div>
         </div>
       </section>
@@ -62,7 +64,13 @@ export default function Home() {
       <Newest />
 
       <div className="max-w-7xl mx-auto">
-        <Image src={"/sale.webp"} alt="hero image" height={2000} width={2000} className="w-full h-full"/>
+        <Image
+          src={"/sale.webp"}
+          alt="hero image"
+          height={2000}
+          width={2000}
+          className="w-full h-full"
+        />
       </div>
     </div>
   );

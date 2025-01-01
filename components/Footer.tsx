@@ -70,7 +70,15 @@ const Footer = () => {
             />
             <button className="bg-black text-white w-full px-4 py-2">Subscribe</button>
           </div>
-          <div className="flex space-x-4 mt-4">
+
+
+
+
+        </div>
+      </div>
+
+
+          <div className="flex justify-center space-x-4 mt-4">
             <Link href="https://en-gb.facebook.com/moizahmed.shiakh" target='_blank' className="text-gray-800">
             <FaFacebook size={30}/>
             </Link>
@@ -81,8 +89,6 @@ const Footer = () => {
               <FaLinkedin size={30}/>
             </Link>
           </div>
-        </div>
-      </div>
 
       {/* Copyright Section */}
       <div className="text-center text-gray-500 text-sm mt-8 border-t border-gray-300 pt-4">

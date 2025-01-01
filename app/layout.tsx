@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-// import { CartProvider } from "use-shopping-cart";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ShoppingCartModel from "../components/ShoppingCartModel";
-// import Navbar from "@/components/Navbar";
 import CartProvider from "../components/Provider";
-// import ShoppingCartModel from "@/components/ShoppingCartModel";
-// import Footer from "@/components/Footer";
+
+
+// import { Roboto_Condensed } from "next/font/google";
+
+
+
+
+
 
 const font = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -30,9 +34,9 @@ export default function RootLayout({
       <body className={`${font.className} ${font.className} antialiased`}>
         <CartProvider>
           <Navbar />
-          <ShoppingCartModel/>
+          <ShoppingCartModel />
           {children}
-          <Footer/>
+          <Footer />
         </CartProvider>
       </body>
     </html>
