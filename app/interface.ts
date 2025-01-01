@@ -1,5 +1,5 @@
 export interface simplifiedProduct {
-    images: any
+    images: string[],
     _id: string,
     name: string,
     price: number,
