@@ -3,7 +3,6 @@
 import React from "react";
 import { Button } from "./ui/button";
 import { useShoppingCart } from "use-shopping-cart";
-// import { urlFor } from "@/sanity/lib/image";
 import { ProductCart } from "./AddToCart";
 import { urlFor } from "../sanity/lib/image";
 

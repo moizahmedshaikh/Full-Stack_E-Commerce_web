@@ -1,5 +1,4 @@
-// import Hero from "@/components/Hero";
-// import Newest from "@/components/Newest";
+
 import Image from "next/image";
 import Link from "next/link";
 import Hero from "../components/Hero";
